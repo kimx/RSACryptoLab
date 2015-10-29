@@ -7,6 +7,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
+//http://codebetter.com/johnvpetersen/2012/04/02/making-your-asp-net-web-apis-secure/
 namespace RSACryptoLab
 {
     //class Program
