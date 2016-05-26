@@ -84,8 +84,8 @@ namespace RSACryptoLab
 
         static void DoTest()
         {
-            string pubKey = GetKey(false);
-            string priKey = GetKey(true);
+            string pubKey = GetKey(false);//只能用來解密
+            string priKey = GetKey(true);//加解密都行
             string data = "KimPassword";
             RSAToken token = new RSAToken();
             string tokenString = token.GenerateTokenString(priKey, data, DateTime.Now.AddDays(3));
